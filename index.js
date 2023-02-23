@@ -30,10 +30,5 @@ const expressPlayground = require('graphql-playground-middleware-express')
 
 app.get('/playground', expressPlayground({ endpoint: '/graphql' }))
 
-app.listen(8080,()=>{
-  console.log('listening on port 8080');
-})
-
-
 app.listen(4000);
 console.log('Running a GraphQL API server at http://localhost:4000/graphql');
