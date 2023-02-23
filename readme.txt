@@ -6,3 +6,6 @@ https://stackoverflow.com/questions/70574880/unable-to-install-express-graphql
 instead make sure package.json doesn't have the libraries bellow and manually execute the bellow commands
 npm install express express-graphql
 npm install graphql graphql-playground-middleware-express
+
+you can onlys use this to force install
+npm i --force
